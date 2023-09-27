@@ -1,0 +1,20 @@
+#First DB Configuration 
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/microservice
+    username: postgres
+    password: RECOMMENDED
+    
+#Second DB Configuration
+second:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/microservices
+    username: postgres
+    password: RECOMMENDED
+    
+#Third DB Configuration
+#third:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/microservice
+#    username: postgres
+#    password: RECOMMENDED
